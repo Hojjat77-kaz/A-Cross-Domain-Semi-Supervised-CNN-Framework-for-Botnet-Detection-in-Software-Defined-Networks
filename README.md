@@ -1,4 +1,4 @@
-# A-Cross-Domain-Semi-Supervised-CNN-Framework-for-Botnet-Detection-in-Software-Defined-Networks
+# Label-Efficient Botnet Detection in Software-Defined Networks via Cross-Domain CNN Learning
 This repository provides the implementation of a cross-domain, semi-supervised convolutional neural network (CNN) framework for botnet detection in Software-Defined Networks (SDN). The proposed approach is designed to address two fundamental challenges in real-world SDN security: limited labeled data and poor generalization across network domains.
 
 Unlike conventional intrusion detection systems that rely solely on fully supervised learning within a single dataset, this framework explicitly leverages cross-domain knowledge transfer and pseudo-labeling–based semi-supervised learning. A CNN model is first trained on a botnet-rich non-SDN dataset to capture generic botnet behavior, and then adapted to an SDN environment using only a small fraction of labeled SDN traffic. Unlabeled SDN flows are subsequently exploited through confidence-aware pseudo-labeling, allowing the model to improve detection performance under strict labeling constraints.
